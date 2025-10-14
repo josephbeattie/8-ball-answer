@@ -3,37 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D940E32F2BA3E80F00D63515 /* __BallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940E32E2BA3E80F00D63515 /* __BallApp.swift */; };
-		D940E3312BA3E80F00D63515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940E3302BA3E80F00D63515 /* ContentView.swift */; };
-		D940E3332BA3E81100D63515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D940E3322BA3E81100D63515 /* Assets.xcassets */; };
-		D940E33C2BA3E81100D63515 /* 8 Ball Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D940E33B2BA3E81100D63515 /* 8 Ball Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D940E3412BA3E81100D63515 /* __BallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940E3402BA3E81100D63515 /* __BallApp.swift */; };
-		D940E3432BA3E81100D63515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940E3422BA3E81100D63515 /* ContentView.swift */; };
-		D940E3452BA3E81100D63515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D940E3442BA3E81100D63515 /* Assets.xcassets */; };
+		D998216D2E9E0C9E00CD6670 /* answers-by-locale.json in Resources */ = {isa = PBXBuildFile; fileRef = D99821662E9E0C9E00CD6670 /* answers-by-locale.json */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D940E33D2BA3E81100D63515 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D940E3232BA3E80F00D63515 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D940E33A2BA3E81100D63515;
-			remoteInfo = "8 Ball Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		D940E34E2BA3E81100D63515 /* Embed Watch Content */ = {
+		D998219A2E9E101600CD6670 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D940E33C2BA3E81100D63515 /* 8 Ball Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,25 +24,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D940E32B2BA3E80F00D63515 /* 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D940E32E2BA3E80F00D63515 /* __BallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __BallApp.swift; sourceTree = "<group>"; };
-		D940E3302BA3E80F00D63515 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D940E3322BA3E81100D63515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D940E33B2BA3E81100D63515 /* 8 Ball Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8 Ball Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D940E3402BA3E81100D63515 /* __BallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __BallApp.swift; sourceTree = "<group>"; };
-		D940E3422BA3E81100D63515 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D940E3442BA3E81100D63515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91723472E9D9ED3008C2275 /* 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99821662E9E0C9E00CD6670 /* answers-by-locale.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "answers-by-locale.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		D940E3282BA3E80F00D63515 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D91723492E9D9ED3008C2275 /* 8 Ball */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "8 Ball";
+			sourceTree = "<group>";
 		};
-		D940E3382BA3E81100D63515 /* Frameworks */ = {
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D91723442E9D9ED3008C2275 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,170 +47,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D940E3222BA3E80F00D63515 = {
+		D917233E2E9D9ED3008C2275 = {
 			isa = PBXGroup;
 			children = (
-				D940E32D2BA3E80F00D63515 /* 8 Ball */,
-				D940E33F2BA3E81100D63515 /* 8 Ball Watch App */,
-				D940E32C2BA3E80F00D63515 /* Products */,
+				D99821662E9E0C9E00CD6670 /* answers-by-locale.json */,
+				D91723492E9D9ED3008C2275 /* 8 Ball */,
+				D91723482E9D9ED3008C2275 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D940E32C2BA3E80F00D63515 /* Products */ = {
+		D91723482E9D9ED3008C2275 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D940E32B2BA3E80F00D63515 /* 8 Ball.app */,
-				D940E33B2BA3E81100D63515 /* 8 Ball Watch App.app */,
+				D91723472E9D9ED3008C2275 /* 8 Ball.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D940E32D2BA3E80F00D63515 /* 8 Ball */ = {
-			isa = PBXGroup;
-			children = (
-				D940E32E2BA3E80F00D63515 /* __BallApp.swift */,
-				D940E3302BA3E80F00D63515 /* ContentView.swift */,
-				D940E3322BA3E81100D63515 /* Assets.xcassets */,
-			);
-			path = "8 Ball";
-			sourceTree = "<group>";
-		};
-		D940E33F2BA3E81100D63515 /* 8 Ball Watch App */ = {
-			isa = PBXGroup;
-			children = (
-				D940E3402BA3E81100D63515 /* __BallApp.swift */,
-				D940E3422BA3E81100D63515 /* ContentView.swift */,
-				D940E3442BA3E81100D63515 /* Assets.xcassets */,
-			);
-			path = "8 Ball Watch App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D940E32A2BA3E80F00D63515 /* 8 Ball */ = {
+		D91723462E9D9ED3008C2275 /* 8 Ball */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D940E34F2BA3E81100D63515 /* Build configuration list for PBXNativeTarget "8 Ball" */;
+			buildConfigurationList = D91723682E9D9ED4008C2275 /* Build configuration list for PBXNativeTarget "8 Ball" */;
 			buildPhases = (
-				D940E3272BA3E80F00D63515 /* Sources */,
-				D940E3282BA3E80F00D63515 /* Frameworks */,
-				D940E3292BA3E80F00D63515 /* Resources */,
-				D940E34E2BA3E81100D63515 /* Embed Watch Content */,
+				D91723432E9D9ED3008C2275 /* Sources */,
+				D91723442E9D9ED3008C2275 /* Frameworks */,
+				D91723452E9D9ED3008C2275 /* Resources */,
+				D998219A2E9E101600CD6670 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D940E33E2BA3E81100D63515 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D91723492E9D9ED3008C2275 /* 8 Ball */,
 			);
 			name = "8 Ball";
+			packageProductDependencies = (
+			);
 			productName = "8 Ball";
-			productReference = D940E32B2BA3E80F00D63515 /* 8 Ball.app */;
-			productType = "com.apple.product-type.application";
-		};
-		D940E33A2BA3E81100D63515 /* 8 Ball Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D940E34B2BA3E81100D63515 /* Build configuration list for PBXNativeTarget "8 Ball Watch App" */;
-			buildPhases = (
-				D940E3372BA3E81100D63515 /* Sources */,
-				D940E3382BA3E81100D63515 /* Frameworks */,
-				D940E3392BA3E81100D63515 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "8 Ball Watch App";
-			productName = "8 Ball Watch App";
-			productReference = D940E33B2BA3E81100D63515 /* 8 Ball Watch App.app */;
+			productReference = D91723472E9D9ED3008C2275 /* 8 Ball.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D940E3232BA3E80F00D63515 /* Project object */ = {
+		D917233F2E9D9ED3008C2275 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					D940E32A2BA3E80F00D63515 = {
-						CreatedOnToolsVersion = 15.3;
-					};
-					D940E33A2BA3E81100D63515 = {
-						CreatedOnToolsVersion = 15.3;
+					D91723462E9D9ED3008C2275 = {
+						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
 			};
-			buildConfigurationList = D940E3262BA3E80F00D63515 /* Build configuration list for PBXProject "8 Ball" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = D91723422E9D9ED3008C2275 /* Build configuration list for PBXProject "8 Ball" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D940E3222BA3E80F00D63515;
-			productRefGroup = D940E32C2BA3E80F00D63515 /* Products */;
+			mainGroup = D917233E2E9D9ED3008C2275;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D91723482E9D9ED3008C2275 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D940E32A2BA3E80F00D63515 /* 8 Ball */,
-				D940E33A2BA3E81100D63515 /* 8 Ball Watch App */,
+				D91723462E9D9ED3008C2275 /* 8 Ball */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D940E3292BA3E80F00D63515 /* Resources */ = {
+		D91723452E9D9ED3008C2275 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D940E3332BA3E81100D63515 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D940E3392BA3E81100D63515 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D940E3452BA3E81100D63515 /* Assets.xcassets in Resources */,
+				D998216D2E9E0C9E00CD6670 /* answers-by-locale.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D940E3272BA3E80F00D63515 /* Sources */ = {
+		D91723432E9D9ED3008C2275 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D940E3312BA3E80F00D63515 /* ContentView.swift in Sources */,
-				D940E32F2BA3E80F00D63515 /* __BallApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D940E3372BA3E81100D63515 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D940E3432BA3E81100D63515 /* ContentView.swift in Sources */,
-				D940E3412BA3E81100D63515 /* __BallApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		D940E33E2BA3E81100D63515 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D940E33A2BA3E81100D63515 /* 8 Ball Watch App */;
-			targetProxy = D940E33D2BA3E81100D63515 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		D940E3492BA3E81100D63515 /* Debug */ = {
+		D91723662E9D9ED4008C2275 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,8 +180,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8Q693ZG5RN;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -294,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		D940E34A2BA3E81100D63515 /* Release */ = {
+		D91723672E9D9ED4008C2275 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,8 +242,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8Q693ZG5RN;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -348,171 +262,129 @@
 			};
 			name = Release;
 		};
-		D940E34C2BA3E81100D63515 /* Debug */ = {
+		D91723692E9D9ED4008C2275 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = 8Q693ZG5RN;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8Q693ZG5RN;
+				"DEVELOPMENT_TEAM[sdk=xros*]" = 8Q693ZG5RN;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "8 Ball";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "net.phor.--Ball66";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.phor.--Ball66.watchkitapp";
+				INFOPLIST_FILE = "--Ball-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "8 Ball Answers";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.phor.--Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "8Q693ZG5RN.net.phor.--Ball provisioning";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=xros*]" = "8Q693ZG5RN.net.phor.--Ball provisioning";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
-		D940E34D2BA3E81100D63515 /* Release */ = {
+		D917236A2E9D9ED4008C2275 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 28;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8Q693ZG5RN;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "8 Ball";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "net.phor.--Ball66";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.phor.--Ball66.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.4;
-			};
-			name = Release;
-		};
-		D940E3502BA3E81100D63515 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = 8Q693ZG5RN;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "8 Ball";
+				INFOPLIST_FILE = "--Ball-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "8 Ball Answers";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.phor.--Ball66";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.phor.--Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D940E3512BA3E81100D63515 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = 8Q693ZG5RN;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "8 Ball";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.phor.--Ball66";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D940E3262BA3E80F00D63515 /* Build configuration list for PBXProject "8 Ball" */ = {
+		D91723422E9D9ED3008C2275 /* Build configuration list for PBXProject "8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D940E3492BA3E81100D63515 /* Debug */,
-				D940E34A2BA3E81100D63515 /* Release */,
+				D91723662E9D9ED4008C2275 /* Debug */,
+				D91723672E9D9ED4008C2275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D940E34B2BA3E81100D63515 /* Build configuration list for PBXNativeTarget "8 Ball Watch App" */ = {
+		D91723682E9D9ED4008C2275 /* Build configuration list for PBXNativeTarget "8 Ball" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D940E34C2BA3E81100D63515 /* Debug */,
-				D940E34D2BA3E81100D63515 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D940E34F2BA3E81100D63515 /* Build configuration list for PBXNativeTarget "8 Ball" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D940E3502BA3E81100D63515 /* Debug */,
-				D940E3512BA3E81100D63515 /* Release */,
+				D91723692E9D9ED4008C2275 /* Debug */,
+				D917236A2E9D9ED4008C2275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D940E3232BA3E80F00D63515 /* Project object */;
+	rootObject = D917233F2E9D9ED3008C2275 /* Project object */;
 }

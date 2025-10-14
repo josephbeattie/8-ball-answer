@@ -2,51 +2,31 @@
 //  ContentView.swift
 //  8 Ball
 //
-//  Created by William Entriken on 2024-03-14.
+//  Created by William Entriken on 2025-10-13.
 //
 
 import SwiftUI
 
-let answers = [
-    "It is certain",
-    "It is decidedly so",
-    "Without a doubt",
-    "Yes definitely",
-    "You may rely on it",
-    "As I see it, yes",
-    "Most likely",
-    "Outlook good",
-    "Yes",
-    "Signs point to yes",
-    "Reply hazy try again",
-    "Ask again later",
-    "Better not tell you now",
-    "Cannot predict now",
-    "Concentrate and ask again",
-    "Don't count on it",
-    "My reply is no",
-    "My sources say no",
-    "Outlook not so good",
-    "Very doubtful"
-]
-
 struct ContentView: View {
     @State private var fortune = "Tap for answer"
     @State private var scale: CGFloat = 1.0
+    @State private var answersModel: AnswersModel = .init()
 
     var body: some View {
         Text(fortune)
+            .font(.system(size: 500))  // Start with a very large size
             .fontWeight(.bold)
-            .font(.system(size: 80))
             .foregroundColor(.white)
             .multilineTextAlignment(.center)
+            .minimumScaleFactor(0.01)  // Allow scaling down to 1% if needed
+            .lineLimit(nil)
             .scaleEffect(scale, anchor: UnitPoint.center)
-            .edgesIgnoringSafeArea(.all)
-            .frame(minWidth: 0, maxWidth:.infinity, minHeight: 0, maxHeight: .infinity)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .padding()  // Add padding to prevent edge touching
             .background(Color.black)
             .edgesIgnoringSafeArea(.all)
             .onTapGesture {
-                self.fortune = answers.randomElement()!
+                fortune = answersModel.getAnswer()
                 self.scale = 1.8
                 withAnimation(.easeIn(duration: 0.2)) {
                     self.scale = 1.0
